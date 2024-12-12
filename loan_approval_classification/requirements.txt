@@ -6,3 +6,4 @@ optuna
 pillow
 requests
 streamlit
+matplotlib

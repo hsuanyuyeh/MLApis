@@ -53,13 +53,19 @@ st.sidebar.header('Peronal Profile')
 st.header("Predict the submitted loan getting approved or not by profiling and loan information")
 user_data = get_user_input()
 
+
+
+st.subheader("Predicted result")
 if st.button("Predict"):
     user_data = pd.DataFrame(user_data, index=[0]).to_json()
     get_prediction = requests.get(f"http://{server_ip_and_port}/input/", params={'input': user_data})
     post_prediction = requests.post(f"http://{server_ip_and_port}/predict/")
     
-    st.subheader("Predicted result")
     st.write(f"**{post_prediction.json()}**")
+
+st.subheader("Feature importance")
+image_fi = Image.open('images/feature_importance.png')
+st.image(image_fi, use_container_width=True)
 
 
 
