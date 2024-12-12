@@ -8,7 +8,7 @@ Build a loan application status prediction app with lightgbm, fastapi and stream
 4. Build the front end ui with streamlit. Customize the input data in sidebar\
 \
 \
-###Notes
+### Notes
 Run the backend server: uvicorn server:app --host 0.0.0.0 --port 8000\
 Run the chatbot ui: streamlit run client.py
 
