@@ -1,7 +1,7 @@
 ## Loan application status prediction app
 Build a loan application status prediction app with lightgbm, fastapi and streamlit.\
 \
-**Steps**
+#### Steps
 1. Explore the loan data with data profiling
 2. Build and save the lightGBM model in jupyter notebook script_model.ipynb
 3. Create a ml model backend server with fastapi loading the saved model
