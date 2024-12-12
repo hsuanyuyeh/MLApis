@@ -1,0 +1,8 @@
+pandas
+ydata-profiling
+scikit-learn
+lightgbm
+optuna
+pillow
+requests
+streamlit
