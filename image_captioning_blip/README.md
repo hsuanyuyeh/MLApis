@@ -7,5 +7,5 @@ Build a Image captioning app with BLIP and gradio.
 3. Introduce gradio as the web app to upload images
 \
 \
-![screenshot](https://github.com/hsuanyuyeh/MLApis/tree/main/image_captioning_blip/images/image_cap_app.png)
+![screenshot](https://github.com/hsuanyuyeh/MLApis/blob/main/image_captioning_blip/images/image_cap_app.png)
 
