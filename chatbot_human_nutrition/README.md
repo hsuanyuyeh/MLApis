@@ -1,5 +1,5 @@
 ## Chatbot with rag mechanism
-Build a chatbot with rag mechanism to answer nutrition related question.
+Build a chatbot with rag mechanism to answer nutrition related question. UI was built in template with pdf uploading feature.
 
 #### Steps
 1. Create the chromadb with uploaded pdf file.
