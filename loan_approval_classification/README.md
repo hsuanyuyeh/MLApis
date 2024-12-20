@@ -8,8 +8,8 @@ Build a loan application status prediction app with lightgbm, fastapi and stream
 4. Build the front end ui with streamlit. Customize the input data in sidebar
 
 #### Goal
-Make a prediction for loan application result serving as a consultant app.
-Integarate with some business rule to automate the whole application process potentially.
+Make a prediction for loan application result serving as a consultant app.\
+Integarate with some business rules to automate the whole application process potentially.
 
 #### Notes
 Run the backend server: uvicorn app:app --host 0.0.0.0 --port 8000\
