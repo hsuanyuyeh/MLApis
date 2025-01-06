@@ -9,3 +9,10 @@ Build a chatbot with rag mechanism to answer nutrition related question. UI was 
 \
 ![screenshot](https://github.com/hsuanyuyeh/MLApis/blob/main/chatbot_human_nutrition/rag_bot_app.png)
 
+#### Document preprocessing
+1. Document loaders - langchain_community.document_loaders: pdf, txt, markdown, json, csv, webbase...
+2. Text splitter - langchain.text_splitter: CharacterTextSplitter, RecursiveCharacterTextSplitter MarkdownHeaderTextSplitter...
+3. Embedding models - langchain_community.embeddings: HuggingFaceEmbeddings
+4. Vector store DB - langchain_community.vectorstores: Chroma, FIASS
+5. Retriever - simple similarity search, maximum marginal relevance search (MMR), multi-query retriever, self-query retriever, parent document retriever,...
+
